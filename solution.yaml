@@ -1,0 +1,12 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: wave-creation-4f04c
+  version: 1.0.0
+  description: Automated daily wave creation agent for SAP EWM outbound deliveries
+
+assets:
+  - ref: ./assets/wave-creation-agent/asset.yaml
+  - ref: ./assets/sap-s4-warehouseoutbdeliveryorder-0001-mcp-server/asset.yaml
+  - ref: ./assets/sap-s4-outbound-delivery-srv-0002-mcp-server/asset.yaml
